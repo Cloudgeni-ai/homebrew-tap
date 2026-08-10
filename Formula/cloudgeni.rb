@@ -3,27 +3,27 @@
 class Cloudgeni < Formula
   desc "Cloudgeni CLI - agent sessions, integrations, and scans from the terminal"
   homepage "https://cloudgeni.ai"
-  version "0.1.9"
+  version "0.1.10"
 
   on_macos do
     on_arm do
-      url "https://github.com/Cloudgeni-ai/cloudgeni-cli/releases/download/v0.1.9/cloudgeni-darwin-arm64"
-      sha256 "4498af9a8a71d634909fdec59cd162a518726205e3f5cb677b64e13b532e8c08"
+      url "https://github.com/Cloudgeni-ai/cloudgeni-cli/releases/download/v0.1.10/cloudgeni-darwin-arm64"
+      sha256 "aa2590fbf9246a81b4acf5c1e8e4ddf5f3b583ac884e18fe693638a513416949"
     end
     on_intel do
-      url "https://github.com/Cloudgeni-ai/cloudgeni-cli/releases/download/v0.1.9/cloudgeni-darwin-x64"
-      sha256 "edb2dc443204909984aa1d2360af82d029df7ddda248e763ce5f731f856278a6"
+      url "https://github.com/Cloudgeni-ai/cloudgeni-cli/releases/download/v0.1.10/cloudgeni-darwin-x64"
+      sha256 "1a9a83ad451847e65308ac61de1be621b8cfd6444be371978bc3ca51a7b452ce"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Cloudgeni-ai/cloudgeni-cli/releases/download/v0.1.9/cloudgeni-linux-x64"
-      sha256 "2de292da3d05401bfe8d37532a55e04e30dfa3a94d82f8650a7f5ba04c7ea8ec"
+      url "https://github.com/Cloudgeni-ai/cloudgeni-cli/releases/download/v0.1.10/cloudgeni-linux-x64"
+      sha256 "8291e1eaf01b945eaa4545dfdd21ea6545e6cf800b694996d56562e0b89be525"
     end
     on_arm do
-      url "https://github.com/Cloudgeni-ai/cloudgeni-cli/releases/download/v0.1.9/cloudgeni-linux-arm64"
-      sha256 "8103fa7bf5510f1f2fdec8f743b448cf196d758ae61714a0dfae8ea8b043e7a0"
+      url "https://github.com/Cloudgeni-ai/cloudgeni-cli/releases/download/v0.1.10/cloudgeni-linux-arm64"
+      sha256 "1594e5a4775300ff92c33dd94622a3397d54796ec83dc137f413a86c3969df40"
     end
   end
 
