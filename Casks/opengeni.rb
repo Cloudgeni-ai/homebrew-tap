@@ -3,8 +3,8 @@
 # tap, so `brew install --cask cloudgeni-ai/tap/opengeni` installs the newest
 # release. The app updates itself afterwards.
 cask "opengeni" do
-  version "0.1.14"
-  sha256 "dbff43b1c6a554cdf837c40d93ac687b592a21c25b824715075c95babdc8b2cc"
+  version "0.1.15"
+  sha256 "32afb2ed5917350d4909fe8ab2ec77d4fbaa10db2e9d43d98923c3e802072cc2"
 
   url "https://github.com/Cloudgeni-ai/opengeni/releases/download/desktop-v#{version}/Opengeni-#{version}-mac.dmg"
   name "Opengeni"
